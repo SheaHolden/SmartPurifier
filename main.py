@@ -1,16 +1,35 @@
-# This is a sample Python script.
+"""
+=================================================================================
+COMP 4980 - IoT Final Project: Smart Environment Purifier System
+November 27 2022
+Shea Holden (T00549598)
+# TODO: Group member names and id's
+=================================================================================
+"""
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# TODO: Set up - board/ GPIO pins, variables, etc
+# TODO: Read data from sensor
+# TODO: Connect to smart plug (RF or wifi?)
+# TODO: Connect to adafruit dashboard
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+def main():
+    print('Hello world')
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# Function to read air quality
+def readAir():
+    return
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+# Function to activate device connected to smart plug
+def activateDevice():
+    return
+
+
+# Function to deactivate device connected to smart plug
+def deactivateDevice():
+    return
+
+
+main()
